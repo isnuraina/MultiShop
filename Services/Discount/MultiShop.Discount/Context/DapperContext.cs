@@ -23,3 +23,16 @@ namespace MultiShop.Discount.Context
         public IDbConnection CreateConnection()=>new SqlConnection (_connectionString);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
