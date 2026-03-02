@@ -16,6 +16,7 @@ namespace MultiShop.Order.WebApi.Controllers
         {
             _mediator = mediator;
         }
+
         [HttpGet]
         public async Task<IActionResult> OrderingList()
         {
